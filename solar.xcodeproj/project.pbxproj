@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D07F872210F5165004BAC98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07F871210F5165004BAC98 /* AppDelegate.swift */; };
+		2D07F877210F5165004BAC98 /* SolarMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D07F875210F5165004BAC98 /* SolarMain.storyboard */; };
+		2D07F879210F5165004BAC98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D07F878210F5165004BAC98 /* Assets.xcassets */; };
+		2D07F87C210F5165004BAC98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D07F87A210F5165004BAC98 /* LaunchScreen.storyboard */; };
+		2D07F887210F5165004BAC98 /* solarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07F886210F5165004BAC98 /* solarTests.swift */; };
+		2D07F892210F5165004BAC98 /* solarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07F891210F5165004BAC98 /* solarUITests.swift */; };
+		2D07F8A0210F5231004BAC98 /* ProjectBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D07F89F210F5231004BAC98 /* ProjectBoard.storyboard */; };
+		2D07F8A5210F53E1004BAC98 /* ProjectsListsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07F8A4210F53E1004BAC98 /* ProjectsListsController.swift */; };
+		2D07F8A7210F53F6004BAC98 /* SingleProjectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07F8A6210F53F6004BAC98 /* SingleProjectController.swift */; };
+		2D07F8A9210F5421004BAC98 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07F8A8210F5421004BAC98 /* LoginController.swift */; };
+		2D07F8AB210F542F004BAC98 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07F8AA210F542F004BAC98 /* HomeController.swift */; };
+		2D07F8AD210F546F004BAC98 /* LandingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07F8AC210F546F004BAC98 /* LandingController.swift */; };
+		2D07F8B0210F5648004BAC98 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07F8AF210F5648004BAC98 /* Photo.swift */; };
+		2D07F8B2210F8CBC004BAC98 /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07F8B1210F8CBC004BAC98 /* TestController.swift */; };
+		2D9AD2F021123FA800F4DFA2 /* PhotoAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9AD2EE21123FA800F4DFA2 /* PhotoAdapter.swift */; };
+		2D9AD2F121123FA800F4DFA2 /* PhotoAdapter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D9AD2EF21123FA800F4DFA2 /* PhotoAdapter.xib */; };
+		2D9AD2F42112442F00F4DFA2 /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9AD2F32112442F00F4DFA2 /* helper.swift */; };
+		2DD021C82113152400DF7AAD /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD021C72113152400DF7AAD /* ImageController.swift */; };
+		2DD021CB21131EA200DF7AAD /* ImageAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD021C921131EA200DF7AAD /* ImageAdapter.swift */; };
+		2DD021CC21131EA200DF7AAD /* ImageAdapter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DD021CA21131EA200DF7AAD /* ImageAdapter.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D07F883210F5165004BAC98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D07F866210F5165004BAC98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D07F86D210F5165004BAC98;
+			remoteInfo = solar;
+		};
+		2D07F88E210F5165004BAC98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D07F866210F5165004BAC98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D07F86D210F5165004BAC98;
+			remoteInfo = solar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D07F86E210F5165004BAC98 /* solar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = solar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D07F871210F5165004BAC98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D07F876210F5165004BAC98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SolarMain.storyboard; sourceTree = "<group>"; };
+		2D07F878210F5165004BAC98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D07F87B210F5165004BAC98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D07F87D210F5165004BAC98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D07F882210F5165004BAC98 /* solarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = solarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D07F886210F5165004BAC98 /* solarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = solarTests.swift; sourceTree = "<group>"; };
+		2D07F888210F5165004BAC98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D07F88D210F5165004BAC98 /* solarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = solarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D07F891210F5165004BAC98 /* solarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = solarUITests.swift; sourceTree = "<group>"; };
+		2D07F893210F5165004BAC98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D07F89F210F5231004BAC98 /* ProjectBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProjectBoard.storyboard; sourceTree = "<group>"; };
+		2D07F8A4210F53E1004BAC98 /* ProjectsListsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsListsController.swift; sourceTree = "<group>"; };
+		2D07F8A6210F53F6004BAC98 /* SingleProjectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleProjectController.swift; sourceTree = "<group>"; };
+		2D07F8A8210F5421004BAC98 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		2D07F8AA210F542F004BAC98 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		2D07F8AC210F546F004BAC98 /* LandingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingController.swift; sourceTree = "<group>"; };
+		2D07F8AF210F5648004BAC98 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		2D07F8B1210F8CBC004BAC98 /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
+		2D9AD2EE21123FA800F4DFA2 /* PhotoAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAdapter.swift; sourceTree = "<group>"; };
+		2D9AD2EF21123FA800F4DFA2 /* PhotoAdapter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoAdapter.xib; sourceTree = "<group>"; };
+		2D9AD2F32112442F00F4DFA2 /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
+		2DD021C72113152400DF7AAD /* ImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
+		2DD021C921131EA200DF7AAD /* ImageAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAdapter.swift; sourceTree = "<group>"; };
+		2DD021CA21131EA200DF7AAD /* ImageAdapter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageAdapter.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D07F86B210F5165004BAC98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D07F87F210F5165004BAC98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D07F88A210F5165004BAC98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D07F865210F5165004BAC98 = {
+			isa = PBXGroup;
+			children = (
+				2D07F870210F5165004BAC98 /* solar */,
+				2D07F885210F5165004BAC98 /* solarTests */,
+				2D07F890210F5165004BAC98 /* solarUITests */,
+				2D07F86F210F5165004BAC98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D07F86F210F5165004BAC98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D07F86E210F5165004BAC98 /* solar.app */,
+				2D07F882210F5165004BAC98 /* solarTests.xctest */,
+				2D07F88D210F5165004BAC98 /* solarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D07F870210F5165004BAC98 /* solar */ = {
+			isa = PBXGroup;
+			children = (
+				2D07F871210F5165004BAC98 /* AppDelegate.swift */,
+				2D07F8AE210F5615004BAC98 /* models */,
+				2D07F8A1210F538F004BAC98 /* controllers */,
+				2D07F875210F5165004BAC98 /* SolarMain.storyboard */,
+				2D07F89F210F5231004BAC98 /* ProjectBoard.storyboard */,
+				2D07F878210F5165004BAC98 /* Assets.xcassets */,
+				2D07F87A210F5165004BAC98 /* LaunchScreen.storyboard */,
+				2D07F87D210F5165004BAC98 /* Info.plist */,
+			);
+			path = solar;
+			sourceTree = "<group>";
+		};
+		2D07F885210F5165004BAC98 /* solarTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D07F886210F5165004BAC98 /* solarTests.swift */,
+				2D07F888210F5165004BAC98 /* Info.plist */,
+			);
+			path = solarTests;
+			sourceTree = "<group>";
+		};
+		2D07F890210F5165004BAC98 /* solarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D07F891210F5165004BAC98 /* solarUITests.swift */,
+				2D07F893210F5165004BAC98 /* Info.plist */,
+			);
+			path = solarUITests;
+			sourceTree = "<group>";
+		};
+		2D07F8A1210F538F004BAC98 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2D9AD2F22112441C00F4DFA2 /* utilities */,
+				2D9AD2ED21123F2200F4DFA2 /* segments_ui */,
+				2D07F8A3210F53A0004BAC98 /* projects */,
+				2D07F8A2210F5398004BAC98 /* landing */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		2D07F8A2210F5398004BAC98 /* landing */ = {
+			isa = PBXGroup;
+			children = (
+				2D07F8A8210F5421004BAC98 /* LoginController.swift */,
+				2D07F8AA210F542F004BAC98 /* HomeController.swift */,
+				2D07F8AC210F546F004BAC98 /* LandingController.swift */,
+				2D07F8B1210F8CBC004BAC98 /* TestController.swift */,
+				2DD021C72113152400DF7AAD /* ImageController.swift */,
+			);
+			path = landing;
+			sourceTree = "<group>";
+		};
+		2D07F8A3210F53A0004BAC98 /* projects */ = {
+			isa = PBXGroup;
+			children = (
+				2D07F8A4210F53E1004BAC98 /* ProjectsListsController.swift */,
+				2D07F8A6210F53F6004BAC98 /* SingleProjectController.swift */,
+			);
+			path = projects;
+			sourceTree = "<group>";
+		};
+		2D07F8AE210F5615004BAC98 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				2D07F8AF210F5648004BAC98 /* Photo.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		2D9AD2ED21123F2200F4DFA2 /* segments_ui */ = {
+			isa = PBXGroup;
+			children = (
+				2D9AD2EE21123FA800F4DFA2 /* PhotoAdapter.swift */,
+				2D9AD2EF21123FA800F4DFA2 /* PhotoAdapter.xib */,
+				2DD021C921131EA200DF7AAD /* ImageAdapter.swift */,
+				2DD021CA21131EA200DF7AAD /* ImageAdapter.xib */,
+			);
+			path = segments_ui;
+			sourceTree = "<group>";
+		};
+		2D9AD2F22112441C00F4DFA2 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2D9AD2F32112442F00F4DFA2 /* helper.swift */,
+			);
+			path = utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D07F86D210F5165004BAC98 /* solar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D07F896210F5165004BAC98 /* Build configuration list for PBXNativeTarget "solar" */;
+			buildPhases = (
+				2D07F86A210F5165004BAC98 /* Sources */,
+				2D07F86B210F5165004BAC98 /* Frameworks */,
+				2D07F86C210F5165004BAC98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = solar;
+			productName = solar;
+			productReference = 2D07F86E210F5165004BAC98 /* solar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D07F881210F5165004BAC98 /* solarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D07F899210F5165004BAC98 /* Build configuration list for PBXNativeTarget "solarTests" */;
+			buildPhases = (
+				2D07F87E210F5165004BAC98 /* Sources */,
+				2D07F87F210F5165004BAC98 /* Frameworks */,
+				2D07F880210F5165004BAC98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D07F884210F5165004BAC98 /* PBXTargetDependency */,
+			);
+			name = solarTests;
+			productName = solarTests;
+			productReference = 2D07F882210F5165004BAC98 /* solarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D07F88C210F5165004BAC98 /* solarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D07F89C210F5165004BAC98 /* Build configuration list for PBXNativeTarget "solarUITests" */;
+			buildPhases = (
+				2D07F889210F5165004BAC98 /* Sources */,
+				2D07F88A210F5165004BAC98 /* Frameworks */,
+				2D07F88B210F5165004BAC98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D07F88F210F5165004BAC98 /* PBXTargetDependency */,
+			);
+			name = solarUITests;
+			productName = solarUITests;
+			productReference = 2D07F88D210F5165004BAC98 /* solarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D07F866210F5165004BAC98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Efat Ahmed";
+				TargetAttributes = {
+					2D07F86D210F5165004BAC98 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2D07F881210F5165004BAC98 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D07F86D210F5165004BAC98;
+					};
+					2D07F88C210F5165004BAC98 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D07F86D210F5165004BAC98;
+					};
+				};
+			};
+			buildConfigurationList = 2D07F869210F5165004BAC98 /* Build configuration list for PBXProject "solar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D07F865210F5165004BAC98;
+			productRefGroup = 2D07F86F210F5165004BAC98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D07F86D210F5165004BAC98 /* solar */,
+				2D07F881210F5165004BAC98 /* solarTests */,
+				2D07F88C210F5165004BAC98 /* solarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D07F86C210F5165004BAC98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D9AD2F121123FA800F4DFA2 /* PhotoAdapter.xib in Resources */,
+				2D07F87C210F5165004BAC98 /* LaunchScreen.storyboard in Resources */,
+				2D07F8A0210F5231004BAC98 /* ProjectBoard.storyboard in Resources */,
+				2D07F879210F5165004BAC98 /* Assets.xcassets in Resources */,
+				2D07F877210F5165004BAC98 /* SolarMain.storyboard in Resources */,
+				2DD021CC21131EA200DF7AAD /* ImageAdapter.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D07F880210F5165004BAC98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D07F88B210F5165004BAC98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D07F86A210F5165004BAC98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D07F8B0210F5648004BAC98 /* Photo.swift in Sources */,
+				2D07F8A7210F53F6004BAC98 /* SingleProjectController.swift in Sources */,
+				2D07F8AB210F542F004BAC98 /* HomeController.swift in Sources */,
+				2D9AD2F42112442F00F4DFA2 /* helper.swift in Sources */,
+				2D07F8B2210F8CBC004BAC98 /* TestController.swift in Sources */,
+				2D07F872210F5165004BAC98 /* AppDelegate.swift in Sources */,
+				2DD021C82113152400DF7AAD /* ImageController.swift in Sources */,
+				2D07F8AD210F546F004BAC98 /* LandingController.swift in Sources */,
+				2D9AD2F021123FA800F4DFA2 /* PhotoAdapter.swift in Sources */,
+				2DD021CB21131EA200DF7AAD /* ImageAdapter.swift in Sources */,
+				2D07F8A5210F53E1004BAC98 /* ProjectsListsController.swift in Sources */,
+				2D07F8A9210F5421004BAC98 /* LoginController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D07F87E210F5165004BAC98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D07F887210F5165004BAC98 /* solarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D07F889210F5165004BAC98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D07F892210F5165004BAC98 /* solarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D07F884210F5165004BAC98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D07F86D210F5165004BAC98 /* solar */;
+			targetProxy = 2D07F883210F5165004BAC98 /* PBXContainerItemProxy */;
+		};
+		2D07F88F210F5165004BAC98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D07F86D210F5165004BAC98 /* solar */;
+			targetProxy = 2D07F88E210F5165004BAC98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D07F875210F5165004BAC98 /* SolarMain.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D07F876210F5165004BAC98 /* Base */,
+			);
+			name = SolarMain.storyboard;
+			sourceTree = "<group>";
+		};
+		2D07F87A210F5165004BAC98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D07F87B210F5165004BAC98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D07F894210F5165004BAC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D07F895210F5165004BAC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D07F897210F5165004BAC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28M4F9CNQS;
+				INFOPLIST_FILE = solar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solar.app.solar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D07F898210F5165004BAC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28M4F9CNQS;
+				INFOPLIST_FILE = solar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solar.app.solar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D07F89A210F5165004BAC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = solarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solar.app.solarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/solar.app/solar";
+			};
+			name = Debug;
+		};
+		2D07F89B210F5165004BAC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = solarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solar.app.solarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/solar.app/solar";
+			};
+			name = Release;
+		};
+		2D07F89D210F5165004BAC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = solarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solar.app.solarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = solar;
+			};
+			name = Debug;
+		};
+		2D07F89E210F5165004BAC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = solarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solar.app.solarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = solar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D07F869210F5165004BAC98 /* Build configuration list for PBXProject "solar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D07F894210F5165004BAC98 /* Debug */,
+				2D07F895210F5165004BAC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D07F896210F5165004BAC98 /* Build configuration list for PBXNativeTarget "solar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D07F897210F5165004BAC98 /* Debug */,
+				2D07F898210F5165004BAC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D07F899210F5165004BAC98 /* Build configuration list for PBXNativeTarget "solarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D07F89A210F5165004BAC98 /* Debug */,
+				2D07F89B210F5165004BAC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D07F89C210F5165004BAC98 /* Build configuration list for PBXNativeTarget "solarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D07F89D210F5165004BAC98 /* Debug */,
+				2D07F89E210F5165004BAC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D07F866210F5165004BAC98 /* Project object */;
+}
